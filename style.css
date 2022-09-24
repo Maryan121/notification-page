@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&family=Roboto+Serif:ital,opsz,wght@0,8..144,300;0,8..144,400;0,8..144,600;1,8..144,300&family=Roboto:wght@400;700;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+body{
+    background-color: whitesmoke;
+}
+main{
+    background-color: white;
+    width: 100%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    /*  */
+}
+.section1{
+    padding: 0 .6rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.notification{
+    background-color: rgb(35, 35, 197);
+    color: white;
+    font-size: 1rem;
+    padding: .2rem .8rem;
+    border-radius: .4rem;
+    align-self: center;
+}
+h5{
+    font-weight: 500;
+    color: hsl(219, 12%, 42%);
+}
+h5:hover, h5:focus{
+    color: blue;
+}
+
+.section2{
+    padding: .6rem;
+}
+.item1{
+    margin-top: 1.5rem;
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    background-color: hsl(210, 60%, 98%);
+    padding: 1rem;
+}
+img{
+    width: 45px;
+    height: 45px;
+    align-self: center;
+}
+h3{
+    font-weight: 500;
+    margin-left: 2rem;
+    font-size: 1rem;
+}
+b:hover, b:focus{
+    color: darkblue;
+}
+strong{
+    font-weight: normal;
+    margin-left: .6rem;
+}
+p{
+    margin-left:2rem;
+    color:  hsl(219, 14%, 63%);
+}
+.bolding{
+    color: hsl(224, 21%, 14%);
+    font-weight: bolder;
+    opacity: .8;  
+}
+.bolding:hover, .bolding:focus{
+    color: blue;
+}
+
+.item2, .item3{
+    margin-top: 1.5rem;
+    width: 100%;
+    display: flex;
+    background-color: hsl(210, 60%, 98%);
+    padding: 1rem;
+}
+
+.item4{
+    margin-top: 1.5rem;
+    width: 100%;
+    display: flex;
+    padding: 1rem;
+}
+.message{
+    
+    width: 90%;
+    color: black;
+    padding: 1rem;
+    margin: 1rem;
+    border:  hsl(205, 33%, 90%) 1px solid;
+    
+}
+.message:hover, .message:focus{
+    background-color:  hsl(211, 68%, 94%)
+   
+}
+
+.item5,.item6,.item7{
+    margin-top: 1.5rem;
+    width: 100%;
+    display: flex;
+    padding: 1rem;
+}
+
+
+.attribution{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+@media (min-width:500px){
+    main{
+        width: 60%;
+        margin: 2rem auto;
+    }
+}
